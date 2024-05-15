@@ -470,29 +470,14 @@ const Program = () => {
                 endTime="16:00"
                 title="Pre-registration"
                 eventLocations={[]}
-              />
-              <ProgramItem
-                dayStr="2024-05-24"
-                startTime="16:00"
-                title="Registration"
-                eventLocations={[]}
-              />
+              />    
               <ProgramItem
                 dayStr="2024-05-24"
                 startTime="16:00"
                 title="Doors open"
                 eventLocations={[]}
               />
-              <SpeechItem
-                dayStr="2024-05-24"
-                startTime="16:30"
-                endTime="17:00"
-                title="Talk: Title TBA"
-                speakerName="Fatemeh Fannizadeh (Swarm)"
-                photo={fat}
-                eventLocations={[locations.lexis]}
-              />
-              <SpeechItem
+               <SpeechItem
                 dayStr="2024-05-24"
                 startTime="17:00"
                 endTime="17:30"
@@ -503,7 +488,7 @@ const Program = () => {
                 }
                 photo={nick}
                 eventLocations={[locations.lexis]}
-              />
+              />             
               <SpeechItem
                 dayStr="2024-05-24"
                 startTime="17:30"
@@ -512,6 +497,15 @@ const Program = () => {
                 description="The US Treasury's decision to sanction Tornado Cash, including the immutable pool contracts, has set off a wave of criminal and civil litigation. Do these sanctions go too far, can similar sanctions be used to effectively outlaw crypto all together, and how can we fight back?"
                 speakerName="Peter van Valkenburg (Coin Center)"
                 photo={peter}
+                eventLocations={[locations.lexis]}
+              />
+              <SpeechItem
+                dayStr="2024-05-24"
+                startTime="16:30"
+                endTime="17:00"
+                title="Talk: Title TBA"
+                speakerName="Fatemeh Fannizadeh (Swarm)"
+                photo={fat}
                 eventLocations={[locations.lexis]}
               />{" "}
               <SpeechItem
