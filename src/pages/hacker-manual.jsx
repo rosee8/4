@@ -625,7 +625,134 @@ const Hack = () => {
           </div>
           <div id="judging">
             <h3 className="text-xl mt-6 font-bold">Judging</h3>
-            <p>The judging process will be documented soon.</p>
+            <h4 className="text-l mt-4 font-bold">Judging Timeline on Sunday</h4>
+            <ul>
+              <li>11:30 AM: Hackathon submission deadline</li>
+              <li>12 PM - 4:30 PM: Pitching sessions</li>
+              <li>Hacking teams will pitch in a 10 min rhythm</li>
+              <li>Judges will have 3 min to pre-review your submission</li>
+              <li>You have 3 min for your pitch</li>
+              <li>2 min Q&A after the pitch</li>
+              <li>5:30 PM - 7 PM: Closing ceremony with winner pitches</li>
+              <li>
+                The winning teams of each track, each excellence award and the
+                meta award will present briefly at the closing ceremony. Be
+                prepared to come to the stage and describe what your project
+                does (similar to your pitch for the judges).
+              </li>
+            </ul>
+            <h4 className="text-l mt-4 font-bold">
+              When and where do you present in front of the Judges?
+            </h4>
+            <p>
+              Judging takes place on the 1st floor. There are six clearly marked
+              judging rooms located directly next to each other. Volunteers can
+              help you find the way! Once the hacking phase is over and the
+              judging phase begins, you can check the Submissions Tool to find
+              out the room and time for your team's presentation.
+            </p>
+            <h4 className="text-l mt-4 font-bold">Judging Criteria</h4>
+            <h5 className="text-m mt-4 font-bold">The 4 Track Awards</h5>
+            <p>
+              You will pitch your project in front of a group of 3 judges. There
+              will be a Technical Judge, a Product Judge, and a Concept Judge.
+              They will each focus on different parts of your project.
+            </p>
+            <h5 className="text-m mt-4 font-bold">Technical Judges:</h5>
+            <ul>
+              <li>Technical complexity and quality</li>
+              <ul>
+                <li>What technical challenges does the project address?</li>
+                <li>
+                  Is the code and architecture well-designed and high quality?
+                </li>
+              </ul>
+              <li>Implementation and execution</li>
+              <ul>
+                <li>Is the code efficient and optimized?</li>
+                <li>Is the codebase clean and maintainable?</li>
+              </ul>
+              <li>Functionality</li>
+              <ul>
+                <li>How well does the project work?</li>
+                <li>
+                  Is the solution complete and functional, or does the team have
+                  a clear plan on how they would finish it?
+                </li>
+              </ul>
+              <li>Innovation and creativity</li>
+              <ul>
+                <li>Does the project use new technologies?</li>
+                <li>Is there a creative approach to problem-solving?</li>
+              </ul>
+            </ul>
+            <h5 className="text-m mt-4 font-bold">Product Judges:</h5>
+            <ul>
+              <li>Innovation and creativity</li>
+              <ul>
+                <li>
+                  Is this something completely new or are there already existing
+                  projects working on a similar scope? What is the
+                  differentiator?
+                </li>
+                <li>Does the project demonstrate creative problem-solving?</li>
+              </ul>
+              <li>Practicality and feasibility</li>
+              <ul>
+                <li>Does the project have the potential for real-world impact?</li>
+                <li>Is the implementation feasible in practice?</li>
+              </ul>
+              <li>Communication and presentation</li>
+              <ul>
+                <li>Is the team able to clearly communicate the project and its value?</li>
+              </ul>
+            </ul>
+            <h5 className="text-m mt-4 font-bold">Concept Judges:</h5>
+            <ul>
+              <li>Idea, concept, and vision</li>
+              <ul>
+                <li>Does the concept have a strong vision?</li>
+                <li>What is the wow or fun factor of the idea?</li>
+                <li>How well does the project fit the hackathon track?</li>
+              </ul>
+              <li>Manifesto and values</li>
+              <ul>
+                <li>How well does the project align with the overall theme of the hackathon and with the stated values in the ETHBerlin04 Manifesto?</li>
+                <li>What is the impact and purpose of the project?</li>
+              </ul>
+            </ul>
+            <h5 className="text-m mt-4 font-bold">The Meta Award</h5>
+            <p>This track is being judged by ETHBerlin core team members. Apart from regular technicality and usability, the Meta Award judges will look at:</p>
+            <ul>
+              <li>Improvement of the ETHBerlin experience</li>
+              <ul>
+                <li>How does the project improve the overall ETHBerlin experience?</li>
+                <li>Does the project address specific pain points?</li>
+                <li>How well does the project align with the values and goals of ETHBerlin?</li>
+              </ul>
+              <li>Practicality and scalability</li>
+              <ul>
+                <li>How well does the project integrate with existing tools and infrastructure?</li>
+                <li>How does the project perform under typical hackathon use cases?</li>
+              </ul>
+              <li>Creativity</li>
+              <ul>
+                <li>How creative is the approach to solving ETHBerlin-specific challenges?</li>
+                <li>Is the project original or does it enhance existing tools in innovative ways?</li>
+              </ul>
+              <li>Contributions</li>
+              <ul>
+                <li>Does the contribution address a critical issue or add a valuable feature?</li>
+                <li>How will users or developers benefit from this contribution?</li>
+                <li>Is the code well-written, clean, and maintainable?</li>
+                <li>Is the contribution well-documented?</li>
+                <li>How well does the contribution integrate with the existing codebase?</li>
+              </ul>
+            </ul>
+            <h5 className="text-m mt-4 font-bold">The 3 Excellence Awards</h5>
+            <p>You will be able to select what you are most proud of about your submission: the smart contracts, the social impact or the user experience. A group of expert judges per excellence-award will digitally review and judge the respective projects. You don’t have to pitch in front of the excellence award judges.</p>
+            <h5 className="text-m mt-4 font-bold">After the Hackathon</h5>
+            <p>In addition, all submissions will be reviewed by you, all ETHBerlin attendees, after the hackathon! Within a one week time window you will be able vote on the overall winner. The voting process will be explained soon.</p>
           </div>
           <div id="voting">
             <h2 className="text-2xl mt-8 font-bold">After the Hackathon</h2>
